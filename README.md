@@ -3,4 +3,4 @@
 This repository contains my lab work for the Sault College 
 course CSD120 
 
-**Author**: <Terrence Metcalfe>
+**Author**: Terrence Metcalfe
