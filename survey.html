@@ -38,116 +38,60 @@
             <li>
               <a href="glossary.html">Glossary</a>
             </li>
+            <li>
+                <a href="survey.html">Survey</a>
+              </li>
           </ul>
         </nav>
       </header>
       <main>
-        
-        <h1>Welcome to Terrence Metcalfe CSD120 Website!</h1>
-        <a href="images/bby_me.jpg" target="_blank"> <img src="images/bby_me.jpg" alt="A picture of terry metcalfe as a young one." 
-          sizes="(max-width:500px) 150px, 300px" srcset="images/bby_me_300x300_px.jpeg 300w, images/bby_me_150x150_px.jpeg 150w" /></a>
+        <form method="post">
+            <h1>Survey</h1>
+            <p>
+                <label for="name">What is your name?</label>
+                <input type="text" id="name" name="name_field" required>
+            </p>
+            <p>
+                <label for="email">What is your email?</label>
+                <input type="text" id="email" name="email_field" required> 
+            </p>
+            <p>
+                <label for="number">Which whole number is best?</label>
+                <input type="text" id="number" name="best_whole_number" required> 
+            </p>
+            <p>
+                <label for="day">Which day is best?</label>
+                <input type="text" id="day" name="best_day" required> 
+            </p>
+            <p>
+                <label for="bear">Which bear is best?</label>
+                <select id="bear">
+                    <option>&nbsp;</option>
+                    <option value="1">Black</option>
+                    <option value="2">Brown</option>
+                    <option value="3">Care</option>
+                    <option value="4">Panda</option>
+                    <option value="5">Polar</option>
+                    <option value="6">Teddy</option>
+                </select>
+            </p>
+            <fieldset>
+                <legend>Do you like buttons?</legend>
+                <ul>
+                    <li><input type="Radio" id="yes" name="radio">
+                    <label for="yes">yes</label></li>
 
-        <p>Hey my name is Terrence I usually go by the name Terry. I use to live in Mexico for 6 months a year in the winter months and in Parry Sound Ontario for the summers!</p>
-        <p>I have been skydiving 2 times both times in Mexico. I play video games and like going on long drives</p>
-        <table>
-            <tr>
-              <th rowspan="2">Term</th>
-              <th colspan="3">Course</th>
-              </tr>
-              <tr>
-                <th>Code</th>
-                <th>Name</th>
-                <th>Hrs/Week</th>
-              </tr>
-              <tr>
-                <th rowspan="6">Fall</th>
-                <td>CSD105</td>
-                <td>Python</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>CMM115</td>
-                <td>Communications I</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>CSD120</td>
-                <td>Introduction to Web Development</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>CSO104</td>
-                <td>Introduction to Operating Systems and LAN</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>MTH122</td>
-                <td>Computer Mathematics</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td>TNY130</td>
-                <td>Tecgnology in Society</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <th rowspan="5">Winter</th>
-                <td>CSA103</td>
-                <td>Business Applications I</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>CSD102</td>
-                <td>Programming Using C++</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>CSD212</td>
-                <td>Web Scripting Languages</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>CSO102</td>
-                <td>Introduction to Linux</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>CST104</td>
-                <td>PC Hardware and Networking</td>
-                <td>5</td>
-              </tr>
-              <tr><th colspan="3">Total</th><td>41</td></tr>
-              
-        <h2>My Favourite Things</h2>
+                    <li><input type="Radio" id="no" name="radio">
+                        <label for="no">no</label></li>
 
-        <a href="https://www.riotgames.com/en">
-          <figure>
-            <img src="images/logo.jpg" height="400" width="600" alt="Shooter,Valorant" />
-
-            <figcaption>The letter V for Valorant.</figcaption>
-          </figure>
-        </a>
-        <h3>Top 3 Video Games I Like To Play</h3>
-        <ol>
-          <li>Valorant</li>
-          <li>Dark Souls</li>
-          <li>GTA</li>
-        </ol>
-        <h3>Haiku</h3>
-        <p>
-          Strokes of affection<br />
-          Light and tenderly expressed<br />
-          Keep love’s bonds so strong.<br />
-          <cite>By <span class="author">Paul Holmes</span></cite>
-        </p>
-        <!--Found me!-->
-        <audio controls>
-          <source src="https://ia801508.us.archive.org/8/items/adventuresofsherlockholmes_2010_librivox/sherlockholmes_01_doyle_128kb.mp3" type="audio/mpeg" />
-          <a href="http://www.archive.org/download//adventuresofsherlockholmes_2010_librivox/adventuresofsherlockholmes_2010_librivox_64kb_mp3.zip" class="book-download-btn">Download</a>
-        </audio>
-        <h3>Youtube Video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FXUzn239958" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </main>
+                    <li><input type="Radio" id="None" name="radio">
+                         <label for="None">None of your business</label></li>
+                </ul>
+            </fieldset>
+            <label for="life">What is the meaning of life</label>
+            <textarea name="Type your answer here" name="life_meaning" id="life" cols="50" rows="5"></textarea>
+          </form>
+    </main>
       <footer>
         <hr />
         <blockquote>
