@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Things I like to Do and Enjoy" />
@@ -19,95 +20,104 @@
     <meta name="theme-color" content="#ffffff" />
 
     <style>
-      table { border-collapse: collapse; }
-      th,td { border: 1px solid rgba(0,0,0,0.2); }
-  </style>
-  </head>
+        table {
+            border-collapse: collapse;
+        }
 
-  <body>
+        th,
+        td {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
     <div class="width-wrap">
-      <header id="top">
-        <nav>
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="links.html">Links</a>
-            </li>
-            <li>
-              <a href="glossary.html">Glossary</a>
-            </li>
-            <li>
-                <a href="survey.html">Survey</a>
-              </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <form action="https://formspree.io/f/xwkwloko" method="post">
-            <h1>Survey</h1>
-            <p>
-                <label for="name">What is your name?</label>
-                <input type="text" id="name" name="name_field" required>
-            </p>
-            <p>
-                <label for="email">What is your email?</label>
-                <input type="email" id="email" name="email_field" required> 
-            </p>
-            <p>
-                <label for="number">Which whole number is best?</label>
-                <input type="number" id="number" name="best_whole_number" required> 
-            </p>
-            <p>
-                <label for="day">Which day is best?</label>
-                <input type="date" id="day" name="best_day" required> 
-            </p>
-            <p>
-                <label for="bear">Which bear is best?</label>
-                <select id="bear">
-                    <option>&nbsp;</option>
-                    <option value="1">Black</option>
-                    <option value="2">Brown</option>
-                    <option value="3">Care</option>
-                    <option value="4">Panda</option>
-                    <option value="5">Polar</option>
-                    <option value="6">Teddy</option>
-                </select>
-            </p>
-            <fieldset>
-                <legend>Do you like buttons?</legend>
+        <header id="top">
+            <nav>
                 <ul>
-                    <li><input type="Radio" id="yes" name="radio">
-                    <label for="yes">yes</label></li>
-
-                    <li><input type="Radio" id="no" name="radio">
-                        <label for="no">no</label></li>
-
-                    <li><input type="Radio" id="None" name="radio">
-                         <label for="None">None of your business</label></li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="links.html">Links</a>
+                    </li>
+                    <li>
+                        <a href="glossary.html">Glossary</a>
+                    </li>
+                    <li>
+                        <a href="survey.html">Survey</a>
+                    </li>
                 </ul>
-            </fieldset>
-            <label for="life">What is the meaning of life</label>
-            <textarea name="Type your answer here" name="life_meaning" id="life" cols="50" rows="5"></textarea>
-            <section>
+            </nav>
+        </header>
+        <main>
+            <form action="https://formspree.io/f/xwkwloko" method="post">
+                <h1>Survey</h1>
+                <p>
+                    <label for="name">What is your name?</label>
+                    <input type="text" id="name" name="name_field" required>
+                </p>
+                <p>
+                    <label for="email">What is your email?</label>
+                    <input type="email" id="email" name="email_field" required>
+                </p>
+                <p>
+                    <label for="number">Which whole number is best?</label>
+                    <input type="number" id="number" name="best_whole_number" required>
+                </p>
+                <p>
+                    <label for="day">Which day is best?</label>
+                    <input type="date" id="day" name="best_day" required>
+                </p>
+                <p>
+                    <label for="bear">Which bear is best?</label>
+                    <select id="bear">
+                        <option>&nbsp;</option>
+                        <option value="1">Black</option>
+                        <option value="2">Brown</option>
+                        <option value="3">Care</option>
+                        <option value="4">Panda</option>
+                        <option value="5">Polar</option>
+                        <option value="6">Teddy</option>
+                    </select>
+                </p>
+                <fieldset>
+                    <legend>Do you like buttons?</legend>
+                    <ul>
+                        <li><input type="Radio" id="yes" name="radio">
+                            <label for="yes">yes</label></li>
+
+                        <li><input type="Radio" id="no" name="radio">
+                            <label for="no">no</label></li>
+
+                        <li><input type="Radio" id="None" name="radio">
+                            <label for="None">None of your business</label></li>
+                    </ul>
+                </fieldset>
+                <label for="life">What is the meaning of life</label>
+                <textarea placeholder="Type your answer here" name="life_meaning" id="life" cols="50"
+                    rows="5"></textarea>
                 <p> <button type="submit">Send</button> </p>
-              </section>
-        </form>
-    </main>
-      <footer>
-        <hr />
-        <blockquote>
-          "To give style to one's character - a great and rare art! He exercises it who surveys all that his nature presents in strength and weakness and then moulds it to an artistic plan until everything appears as art and reason, and even the weaknesses delight the eye."<br />
-          <cite>&mdash; <span class="author">Friedrich Nietzsche </span></cite>
-        </blockquote>
-        <p>© 2020 <a href="mailto:t@email.com?subject=Message%20from%20CSD120%20Website"> Terrence Metcalfe </a></p>
-        <picture
-          ><source type="image/svg+xml" srcset="images/sc-logo.svg" alt="Sault College" media="(max-width:70px)" />
-          <img src="images/sc-logo.jpg" alt="Sault College" srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x" />
-        </picture>
-      </footer>
-      <a href="#top" title="Back to top">◤</a>
+            </form>
+        </main>
+        <footer>
+            <hr />
+            <blockquote>
+                "To give style to one's character - a great and rare art! He exercises it who surveys all that his
+                nature presents in strength and weakness and then moulds it to an artistic plan until everything appears
+                as art and reason, and even the weaknesses delight the eye."<br />
+                <cite>&mdash; <span class="author">Friedrich Nietzsche </span></cite>
+            </blockquote>
+            <p>© 2020 <a href="mailto:t@email.com?subject=Message%20from%20CSD120%20Website"> Terrence Metcalfe </a></p>
+            <picture>
+                <source type="image/svg+xml" srcset="images/sc-logo.svg"  media="(max-width:70px)"/>
+                <img src="images/sc-logo.jpg" alt="Sault College"
+                    srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x" />
+            </picture>
+        </footer>
+        <a href="#top" title="Back to top">◤</a>
     </div>
-  </body>
+</body>
+
 </html>
