@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background-color: rgba(76, 23, 92, 0.959);
+    background-color: rgb(76, 23, 92);
 }
 
 *,
@@ -36,12 +36,12 @@ dt::after {
 /* || Header & Navbar Layout  //Lab5 - Exercise 4  */
 
 header {
-    border-top: 4px solid rgba(5, 4, 4, 0.3);
+    border-top: 4px solid rgb(0, 0, 0);
     margin: 0 -2em 0;
 }
 
 header nav {
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    border-bottom: 1px dotted rgb(0, 0, 0);
     margin: 0 2em 2em;
 }
 
@@ -56,7 +56,7 @@ nav ul {
 }
 
 nav a {
-    border-top: 4px transparent rgb(0, 0, 0, 0.3);
+    border-top: 4px transparent rgb(0, 0, 0);
     padding: 1em 1em 0.5em;
     color: #061439;
 }
