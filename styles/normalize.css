@@ -2,6 +2,9 @@ html {
     box-sizing: border-box;
     background-color: rgb(76, 23, 92);
 }
+body {
+    margin-top: 0;
+}
 
 *,
 *::before,
@@ -9,9 +12,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    margin-top: 0;
-}
 
 h1,
 h2,
