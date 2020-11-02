@@ -37,7 +37,7 @@ main p {
     color: #76b91e;
 }
 
-/* || Header & Navbar Layout  //Lab5 - Exercise 4  */
+/* Header & Navbar Layout   */
 
 header {
     border-top: 4px solid rgba(5, 4, 4, 0.3);
@@ -70,7 +70,7 @@ nav a:hover {
     border-top: 4px solid #380844;
 }
 
-/* || Table Style  //Lab5 - Exercise 5 */
+/* Table Style  */
 
 th,
 td {
@@ -91,7 +91,7 @@ tr:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-/* || Form Styling  //Lab5 - Exercise 6 */
+/* Form Styling  */
 
 label {
     display: block;
@@ -128,7 +128,7 @@ input:valid {
     background-color: #856bc4;
 }
 
-/* ||Footer */
+/* Footer */
 
 footer hr {
     width: 50vw;
