@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     background-color: rgba(76, 23, 92, 0.959);
+    color: rgba(0,0,0,0.9);
 }
 
 *,
@@ -40,7 +41,7 @@ main p {
 /* Header & Navbar Layout  */
 
 header {
-    border-top: 4px solid rgba(5, 4, 4, 0.3);
+    border-top: 4px solid rgba(0, 0, 0, 0.1);
     margin: 0 -2em 0;
 }
 
@@ -50,7 +51,7 @@ header nav {
 }
 
 header li {
-    display: inline-block;
+    display: inline;
     padding: 1em 1em 0.5em;
     color: #76b91e;
 }
@@ -61,8 +62,10 @@ nav ul {
 }
 
 nav a {
-    border-top: 4px transparent rgb(0, 0, 0, 0.3);
-    padding: 1em 1em 0.5em;
+    border-top: 4px solid rgb(0, 0, 0, 0);
+    display: inline-block;
+    margin: -4px 1em 0;
+    padding: 1em 0 0.5em;
     color: #061439;
 }
 
@@ -77,17 +80,19 @@ td {
     padding: 0.3em 1em;
 }
 
-thead tr,
-tbody tr,
-tfoot tr {
+thead tr td,
+thead tr th,
+tbody tr th,
+tfoot tr th,
+tfoot tr td {
     background-color: rgb(0, 0, 0, 0.2);
 }
 
-tr {
+tr td {
     background-color: rgb(0, 0, 0, 0.05);
 }
 
-tr:nth-child(even) {
+tr:nth-child(even) td {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -101,7 +106,7 @@ fieldset label {
     display: inline;
 }
 
-button[type="submit"] {
+[type="submit"] {
     border: none;
     padding: 1em 3em;
     color: #FFFFFF;
